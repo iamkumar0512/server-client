@@ -1,5 +1,5 @@
-javac server.java 2>/dev/null
-javac server.client 2>/dev/null
+javac server.java
+javac client.java
 touch serveroutput.txt
 touch clientoutput.txt
 echo -e "---------Client Output-----------" >| clientoutput.txt
